@@ -33,12 +33,13 @@ paragraph: "Through management intensive grazing, etc etc etc etc etc etc etc et
         </div>
   <div class="content-wrapper">
     <h1>PROJECT</h1>
-    <h2>Intro</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum quam vitae mi convallis, quis lobortis nisl molestie. Nunc in ultrices tortor. Phasellus sodales eget augue ultrices finibus. Curabitur tempor sed mi id sagittis. Duis ut tristique diam. Curabitur ullamcorper tincidunt metus non ultrices. Nullam scelerisque nunc sagittis, viverra ex ac, ullamcorper justo.</p>
-    <h2>Goals</h2>
-    <p>Nam congue metus ac rhoncus consectetur. Donec sed sapien ut mi vulputate fermentum pretium vitae turpis. Mauris id eleifend massa, et posuere risus. Maecenas et justo porta, cursus purus nec, porta eros. Donec posuere, sem quis dictum semper, metus arcu porta urna, sed luctus urna ante ac nisi. Vestibulum nec ullamcorper justo, pharetra posuere nisi. Quisque congue nisl eu pharetra sollicitudin.</p>
-    <h2>Community</h2>
-    <p>Pellentesque eget elit ac diam interdum vehicula at at nibh. Proin congue magna at nibh elementum eleifend. Phasellus a ex nec nisi egestas auctor vel id orci. Integer turpis nulla, rutrum in blandit vel, pellentesque id enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam malesuada mauris vel congue tincidunt. Vestibulum vel est dolor. Sed molestie vel justo sed auctor.</p>
+    {% assign items = site.EDITdescription | sort: 'weight' %}
+    {% for paragraph in items %}
+      <div class="partners-description">
+          <h2>{{ paragraph.title }}</h2>
+          {{ paragraph.content }}
+      </div>
+    {% endfor %}
   </div>
 </div>
 

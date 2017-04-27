@@ -10,7 +10,7 @@ title: Silvo Pastoral Systems
 author: Liam Farley
 email: liammellofarley@gmail.com
 description: Silvopastoral project oriented or something
-baseurl: "https://liammellofarley.github.io/voisin/"
+baseurl: ""
 url: "https://liammellofarley.github.io/voisin/"
 social:
   name: Liam Farley
@@ -25,7 +25,10 @@ sass:
 # Build settings
 markdown: redcarpet
 collections:
-  timeline:
+  EDITtimeline:
+  EDITpartners:
+  EDIThomepage:
+  EDITdescription:
 #gems:
 #  - jekyll-picture-tag
 #  - jekyll-seo-tag

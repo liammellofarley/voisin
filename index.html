@@ -1,7 +1,5 @@
 ---
 index: yes
-header1: "Collaboration between researchers and communities in improving farmers livelihood and ecosystem services"
-paragraph: "An  Outreach  Program  from  University of  Santa Catarina (LASS/PPGA), partnered with UVM's Gund Institute for Ecological Economics"
 ---
 <!DOCTYPE html>
 <html>
@@ -32,8 +30,12 @@ paragraph: "An  Outreach  Program  from  University of  Santa Catarina (LASS/PPG
             </nav>
         </div>
   <div class="index-description">
-    <h1>{{ page.header1 }}</h1>
-    <p>{{ page.paragraph }}</p>
+    {% assign items = site.EDIThomepage %}
+    {% for paragraph in items %}
+          <h1>{{ paragraph.title }}</h1>
+          {{ paragraph.content }}
+      </div>
+    {% endfor %}
   </div>
 </div>
 
