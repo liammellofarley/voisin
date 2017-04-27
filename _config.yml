@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Silvo Pastoral Systems
+author: Liam Farley
+email: liammellofarley@gmail.com
+description: Silvopastoral project oriented or somethign/
+baseurl: ""
+url: ""
+social:
+  name: Liam Farley
+  links:
+    - https://www.instagram.com/liammello/
+    - https://www.facebook.com/liamfarleyphoto/
+twitter_username: liammello
+github_username:  liammellofarley
+sass:
+  sass_dir: _sass
+  #style: compressed
+# Build settings
+markdown: redcarpet
+#gems:
+#  - jekyll-picture-tag
+#  - jekyll-seo-tag
+#  - jekyll-minifier
+#defaults:
+#  - scope:
+#      path: ""
+#    values:
+#      image: /images/ogimage.jpg
+
+#picture:
+#  source: "/images/_fullsize"
+#  output: "generated"
+#  markup: "picture"
+#  presets:
+#    default:
+#      attr:
+#        class: "portfolioimage"
+#        itemprop: "image"
+#      source_medium:
+#        media: "(min-height: 1080px)"
+#        width: "1280"
+#      source_1080:
+#        media: "(min-height: 800px)"
+#        height: "1080px"
+#      source_default:
+#        width: "600"
+#    tall:
+#      attr:
+#        class: "portfolioimage"
+#        itemprop: "image"
+#      source_medium:
+#        media: "(min-width: 40em)"
+#        width: "1280"
+#      source_default:
+#        width: "600"

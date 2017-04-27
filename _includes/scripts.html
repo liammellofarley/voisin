@@ -1,0 +1,24 @@
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script async type="text/javascript" src="http://static.tumblr.com/hlwpam6/fF8o9xe50/jquery.unveil.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
+<script src="/js/picturefill.min.js"></script>
+<script>
+    var currentPortfolio = 'retouching1';
+    var navPortfolio = 'retouching1-nav'
+    function portfolioNavigate(target) {
+        if (currentPortfolio != target) {
+            document.getElementById(target).className = document.getElementById(target).className.replace(/(?:^|\s)hidden(?!\S)/g, ' ')
+            document.getElementById(target).className = document.getElementById(target).className.replace(/(?:^|\s)visible(?!\S)/g, ' ')
+            document.getElementById(target).className += "visible";
+            document.getElementById(currentPortfolio).className = document.getElementById(currentPortfolio).className.replace(/(?:^|\s)visible(?!\S)/g, ' ')
+            document.getElementById(currentPortfolio).className += "hidden";
+            document.getElementById(navPortfolio).className = document.getElementById(navPortfolio).className.replace(/(?:^|\s)active-portfolio(?!\S)/g, ' ')
+            currentPortfolio = target;
+            navPortfolio = currentPortfolio + '-nav';
+            document.getElementById(navPortfolio).className += "active-portfolio";
+        }
+    }
+    $(document).ready(function () {
+        $("img").unveil(200);
+    });
+</script>

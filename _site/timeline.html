@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts and other appended links go here -->
+    <!-- Here is the style, shove all the css in here -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600/" rel="stylesheet">
+
+</head>
+
+
+<body>
+<div id="timeline-body">
+  <div id="navwrapper">
+            <div id="logo">
+              <h1>GP Voisin</h1>
+            </div>
+            <nav>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li id="project-nav"><a href="project.html">Project</a>
+                    <div class="dropdown-content-wrapper">
+                      <ul class="dropdown-content">
+                        <li><a href="project.html">Description</a></li>
+                        <li><a href="timeline.html">Timeline</a></li>
+                        <li><a href="research.html">Research</a></li>
+                    </ul>
+                    </div>
+                    </li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li><a href="getinvolved.html">Get Involved</a></li>
+                </ul>
+            </nav>
+        </div>
+  <div class="content-wrapper">
+    <section class="timeline">
+    <ul>
+      <h1>Phase 1</h1>
+      <h1>1998-2000</h1>
+      <li>
+      </li>
+      <li>
+        <div>
+          <h3>Project Start</h3>
+          <time>1998</time>
+          <p>Focus on participatory research Farmer planning done by undergrads and farmers.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Project Start</h3>
+          <time>1998</time>
+          <p>Focus on participatory research Farmer planning done by undergrads and farmers.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Project Start</h3>
+          <time>1998</time>
+          <p>Focus on participatory research Farmer planning done by undergrads and farmers.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Project Start</h3>
+          <time>1998</time>
+          <p>Focus on participatory research Farmer planning done by undergrads and farmers.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Project Start</h3>
+          <time>1998</time>
+          <p>Focus on participatory research Farmer planning done by undergrads and farmers.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Project Start</h3>
+          <time>1998</time>
+          <p>Focus on participatory research Farmer planning done by undergrads and farmers.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  </div>
+</div>
+<script>
+(function() {
+
+  'use strict';
+
+  // define variables
+  var items = document.querySelectorAll(".timeline li");
+
+  // check if an element is in viewport
+  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
+      }
+    }
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+
+})();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+---
+index: yes
+header1: "Developing environmentally friendly solutions that help small farmers"
+paragraph: "Through management intensive grazing, etc etc etc etc etc etc etc etc."
+---
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+<div id="index-body">
+  <div id="navwrapper">
+            <div id="logo">
+              <h1>GP Voisin</h1>
+            </div>
+            <nav>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li id="project-nav"><a href="project.html">Project</a>
+                    <div class="dropdown-content-wrapper">
+                      <ul class="dropdown-content">
+                        <li><a href="project.html">Description</a></li>
+                        <li><a href="timeline.html">Timeline</a></li>
+                        <li><a href="research.html">Research</a></li>
+                    </ul>
+                    </div>
+                    </li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li><a href="getinvolved.html">Get Involved</a></li>
+                </ul>
+            </nav>
+        </div>
+  <div class="index-description">
+    <h1>{{ page.header1 }}</h1>
+    <p>{{ page.paragraph }}</p>
+  </div>
+</div>
+
+</body>
+
+</html>
