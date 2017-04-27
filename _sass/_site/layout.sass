@@ -6,9 +6,7 @@ body
   font-family: montserrat, sans-serif
 /* Index *?
 #index-body
-  background: url(/images/index.jpg), url(/voisin/images/index.jpg)
-  background-repeat: no-repeat
-  background-position: center center
+  background: url({{ site.url }}/images/index.jpg) no-repeat center center fixed
   background-size: cover
   -o-background-size: cover
   -webkit-background-size: cover
@@ -216,10 +214,6 @@ nav
     p
       padding: .4vw
       color: #95989A
-.padding
-  width: 1rem
-  height: 1rem
-  padding-bottom: 6rem
 /* Timeline */
 #timeline-body
   .timeline
