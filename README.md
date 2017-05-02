@@ -40,3 +40,7 @@ How it'll look
 
 
 For pretty much anything else including adding images that are not hosted on the site check out this link that explains how to use markdown https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+# Updating the site
+
+You don't have to do anything but save/commit changes when you're done editing and then the site should automatically update within a couple of minutes. If anything goes wrong github has backups of every single commit so you can roll back. So if you fuck up ask me for help and I'll fix it.
