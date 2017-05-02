@@ -17,7 +17,7 @@ Title: The title of each post, the bold text at the top.
 
 Weight: Determines the order in which it's placed.
 
-Img: Used exclusively for farmers. The images should be placed in the /images/partners folder then for the variable you give the image name including the .jpg. Please name all the images things that make sense and don't use spaces.
+Img: Used exclusively for farmers. The images should be placed in the /images/partners folder then for the variable you give the image name including the .jpg. Images should be 256x256 and ideally just a headshot, I'll have some examples up soon. Please name all the images things that make sense and don't use spaces.
 
 Class: Places partners in the category they belong, possible options are farmer, gund, ufsc.
 
