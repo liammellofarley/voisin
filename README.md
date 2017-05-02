@@ -5,6 +5,8 @@ In those folders are files that end in .md this stands for markdown
 
 Each .md file corresponds to a specific post, everything should be named in a way that makes sense so you can tell what connects to what.
 
+To add new posts for the timeline or new partners, copy one of the existing ones or create a new appropriately named file ending in .md and then mimick the structure of an existing post.
+
 Each .md file is made of two parts: frontmatter and body.
 
 # Front Matter
