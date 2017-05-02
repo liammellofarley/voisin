@@ -5,7 +5,7 @@ In those folders are files that end in .md this stands for markdown
 
 Each .md file corresponds to a specific post, everything should be named in a way that makes sense so you can tell what connects to what.
 
-To add new posts for the timeline or new partners, copy one of the existing ones or create a new appropriately named file ending in .md and then mimick the structure of an existing post.
+To add new posts for the timeline or new partners create a new file in the relevant folder and name it appropriately eg:"joshuafarley.md" in the /partners/gund folder. Next open an existing .md from the same folder and click "raw". Copy everything from that file then go back to your file and paste it in. If you feel 100% comfortable with how the files are structured feel free to type up the frontmatter from memory.
 
 Each .md file is made of two parts: frontmatter and body.
 
@@ -21,6 +21,7 @@ Img: Used exclusively for farmers. The images should be placed in the /images/pa
 
 Class: Places partners in the category they belong, possible options are farmer, gund, ufsc.
 
+Type: You shouldn't have to mess with this.
 # Body
 
 The body is written in a language called markdown, it comes after the final "--". For 99% of stuff that means you just type text in, but there are some places where you may want to make headers (bold and larger font), bold or italicize, or put links and images in. 
