@@ -25,7 +25,16 @@ The body is written in a language called markdown, it comes after the final "--"
 
 Images are the one thing that's specific to this site so here's how to do them:
 
-!["Description"]({{ site.url }}/images/"profile-standin.jpg")
+```markdown
+!["Description"]({{ site.url }}/images/"imagepath.jpg")
+```
 Just replace what's in quotes with your description and the filename of your image.
+eg:
+```markdown
+![Standin for profile pictures]({{ site.url }}/images/profile-standin.jpg)
+```
+How it'll look
+![Standin for profile pictures](https://liammellofarley.github.io/voisin//images/profile-standin.jpg)
+
 
 For pretty much anything else including adding images that are not hosted on the site check out this link that explains how to use markdown [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]
