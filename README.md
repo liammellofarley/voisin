@@ -5,7 +5,7 @@ In those folders are files that end in .md this stands for markdown
 
 Each .md file corresponds to a specific post, everything should be named in a way that makes sense so you can tell what connects to what.
 
-To add new posts for the timeline or new partners create a new file in the relevant folder and name it appropriately eg:"joshuafarley.md" in the /partners/gund folder. Next open an existing .md from the same folder and click "raw". Copy everything from that file then go back to your file and paste it in. If you feel 100% comfortable with how the files are structured feel free to type up the frontmatter from memory.
+To add new posts for the timeline or new partners create a new file in the relevant folder and name it appropriately eg:"joshuafarley.md" in the /partners/gund folder. Next open an existing .md from the same folder and click "raw". Copy everything from that file then go back to your file and paste it in. The button to edit files is a little pencil, you can alternatively use that and copy the contents from their when you're copying other .mds as well.If you feel 100% comfortable with how the files are structured feel free to type up the frontmatter from memory.
 
 Each .md file is made of two parts: frontmatter and body.
 
