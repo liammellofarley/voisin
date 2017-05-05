@@ -2,4 +2,4 @@
 title: Intro
 weight: 1
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum quam vitae mi convallis, quis lobortis nisl molestie. Nunc in ultrices tortor. Phasellus sodales eget augue ultrices finibus. Curabitur tempor sed mi id sagittis. Duis ut tristique diam. Curabitur ullamcorper tincidunt metus non ultrices. Nullam scelerisque nunc sagittis, viverra ex ac, ullamcorper justo.
+Scientists have identified nine biophysical systems that must exist within a proposed safe operating space in order to support life on earth.  Four of these proposed boundaries, nitrogen biogeochemical flow, biodiversity loss, climate change, and land use change, have already been exceeded.  The current agricultural system is a central cause to these four critical thresholds already exceeding their boundaries and is a major threat to the global ecosystem.  Agroecology is an emergent, innovative, and adaptive framework in which agricultural production needs, ecological needs, and farmer needs are central.
