@@ -30,6 +30,7 @@ collections:
   EDIThomepage:
   EDITdescription:
   EDITpapers:
+  EDITinvolved:
 #gems:
 #  - jekyll-picture-tag
 #  - jekyll-seo-tag

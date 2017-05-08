@@ -9,7 +9,7 @@ paragraph: "Through management intensive grazing, etc etc etc etc etc etc etc et
 {% include head.html %}
 
 <body>
-<div id="index-body">
+<div id="project-body">
   <div id="navwrapper">
             <div id="logo">
               <h1>GP Voisin</h1>
@@ -31,9 +31,15 @@ paragraph: "Through management intensive grazing, etc etc etc etc etc etc etc et
                 </ul>
             </nav>
         </div>
-  <div class="index-description">
-    <h1>{{ page.header1 }}</h1>
-    <p>{{ page.paragraph }}</p>
+  <div class="content-wrapper">
+    <h1>Get Involved</h1>
+    {% assign items = site.EDITinvolved | sort: 'weight' %}
+    {% for paragraph in items %}
+      <div class="partners-description">
+          <h2>{{ paragraph.title }}</h2>
+          {{ paragraph.content }}
+      </div>
+    {% endfor %}
   </div>
 </div>
 
