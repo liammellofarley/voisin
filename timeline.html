@@ -1,7 +1,4 @@
 ---
-index: yes
-header1: "Developing environmentally friendly solutions that help small farmers"
-paragraph: "Through management intensive grazing, etc etc etc etc etc etc etc etc."
 ---
 <!DOCTYPE html>
 <html>
@@ -34,19 +31,33 @@ paragraph: "Through management intensive grazing, etc etc etc etc etc etc etc et
   <div class="content-wrapper">
     <section class="timeline">
     <ul>
-      <h1>Phase 1</h1>
-      <h1>1998-2000</h1>
-      <li>
-      </li>
+      <div></div>
       {% assign items = site.EDITtimeline | sort: 'weight' %}
-      {% for post in items %}
-      <li>
+      {% for post in items reversed %}
+        {% if post.phase contains 'Phase' %}
+        {% if post.direction contains 'left' %}
+        <h1>{{ post.phase }}</h1>
+        <h1>{{ post.phasetime }}</h1>
+        {% else %}
+        <h1>{{ post.phasetime }}</h1>
+        <h1>{{ post.phase }}</h1>
+        {% endif %}
+        <li class="header-li"></li>
+        <div></div>
+        <li>
+          <div id="{{ post.phase }}">
+            <h3>{{ post.title }}</h3>
+            {{ post.content }}
+          </div>
+        </li>
+        {% else %}
+        <li>
         <div>
           <h3>{{ post.title }}</h3>
-          <time>{{ post.time }}</time>
-          <p>{{ post.content }}</p>
+          {{ post.content }}
         </div>
       </li>
+      {% endif %}
       {% endfor %}
     </ul>
   </section>
