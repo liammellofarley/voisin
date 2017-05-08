@@ -93,6 +93,46 @@ paragraph: "Through management intensive grazing, etc etc etc etc etc etc etc et
               {% endif %}
               {% endfor %}
             </div>
+            <h1>Government</h1>
+            <div id="government" class="partners">
+              {% for partner in items %}
+              {% if partner.type contains "government-description" %}
+                <div class="partners-description">
+                    <h2>{{ partner.title }}</h2>
+                    {{ partner.content }}
+                </div>
+              {% endif %}
+              {% endfor %}
+              {% for partner in items %}
+              {% if partner.class contains "government" %}
+              <div class="partners-profile">
+                <img src="{{site.url}}/images/partners/{{ partner.img }}">
+                <h3>{{ partner.name }}</h3>
+                {{ partner.content }}
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+            <h1>Organizations</h1>
+            <div id="organizations" class="partners">
+              {% for partner in items %}
+              {% if partner.type contains "organization-description" %}
+                <div class="partners-description">
+                    <h2>{{ partner.title }}</h2>
+                    {{ partner.content }}
+                </div>
+              {% endif %}
+              {% endfor %}
+              {% for partner in items %}
+              {% if partner.class contains "organization" %}
+              <div class="partners-profile">
+                <img src="{{site.url}}/images/partners/{{ partner.img }}">
+                <h3>{{ partner.name }}</h3>
+                {{ partner.content }}
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
             <div class="padding"></div>
         </div>
 
