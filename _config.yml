@@ -29,6 +29,7 @@ collections:
   EDITpartners:
   EDIThomepage:
   EDITdescription:
+  EDITpapers:
 #gems:
 #  - jekyll-picture-tag
 #  - jekyll-seo-tag
