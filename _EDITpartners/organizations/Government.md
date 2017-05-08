@@ -1,7 +1,7 @@
 ---
-name: Government 3
-weight: 3
+name: Local Government
+weight: 0
 img: profile-standin.jpg
-class: government
+class: organization
 ---
 A whole written description about their involvement in the project. The longest one should be about this length, flexbox will deal with the others.
