@@ -2,4 +2,4 @@
 title: Community
 weight: 3
 ---
-Nam congue metus ac rhoncus consectetur. Donec sed sapien ut mi vulputate fermentum pretium vitae turpis. Mauris id eleifend massa, et posuere risus. Maecenas et justo porta, cursus purus nec, porta eros. Donec posuere, sem quis dictum semper, metus arcu porta urna, sed luctus urna ante ac nisi. Vestibulum nec ullamcorper justo, pharetra posuere nisi. Quisque congue nisl eu pharetra sollicitudin.
+Around 20 years ago, Professor Abdon Schmitt of the Federal University of Santa Catarina began a project in Santa Rosa de Lima, a small municipality in the state of Santa Catarina, Brazil which aimed to achieve these goals.  Since then, multiple professors, PhD candidates and master's and undergraduate students have joined the project.  Professor Joshua Farley entered the project as a researcher and created a class at the University of Vermont with the intent of inciting creative and intellectual contribution to the project from participating students.
