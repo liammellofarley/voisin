@@ -4,4 +4,4 @@ weight: 1
 img: profile-standin.jpg
 class: organization
 ---
-A whole written description about their involvement in the project. The longest one should be about this length, flexbox will deal with the others.
+An organic farmer owned co-operative that sell their food products as a collective brand.  Many family farmers in the municipality of Santa Rosa de Lima are a part of the Co-op. [Agreco homepage](http://www.agreco.com.br/)

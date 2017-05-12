@@ -4,4 +4,4 @@ weight: 3
 img: profile-standin.jpg
 class: organization
 ---
-A whole written description about their involvement in the project. The longest one should be about this length, flexbox will deal with the others.
+The Santa Catarina state extension program which has been heavily involved with the project and has had a large part in its success.  [Epagri homepage](http://www.epagri.sc.gov.br/).

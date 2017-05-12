@@ -2,4 +2,4 @@
 title: Role in Project
 type: ufsc-description
 ---
-Here's a bigger description of exactly what the farmers do It'll ideally match length to this
+UFSC is the Universidade Federal de Santa Catarina, professors and Grad students at UFSC form the core of the project in terms of research. [Link to their page](http://ufsc.br/)

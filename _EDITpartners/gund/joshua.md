@@ -4,4 +4,4 @@ weight: 1
 img: profile-joshua-farley.jpg
 class: gund
 ---
-A whole written description about their involvement in the project. The longest one should be about this length, flexbox will deal with the others.
+Professor of Ecological Economics at the University of Vermont. [Link to his personal site](http://www.uvm.edu/~jfarley/).

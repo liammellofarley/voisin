@@ -4,4 +4,4 @@ weight: 2
 img: profile-standin.jpg
 class: ufsc
 ---
-A whole written description about their involvement in the project. The longest one should be about this length, flexbox will deal with the others.
+Professor working with forestry systems with a focus on expanding Atlantic Forest cover without negatively impacting farmer livelihood. [Link to his Lattes Page](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4785342P7).
