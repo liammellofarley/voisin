@@ -2,4 +2,4 @@
 title: Role in Project
 type: gund-description
 ---
-Here's a bigger description of exactly what the farmers do It'll ideally match length to this
+The Gund institute and CDAE are partnered with UFSC to provide support with this project. Joshua Farley runs a yearly trip through CDAE that visits Santa Rosa and teaches students about silvopastoral systems.
