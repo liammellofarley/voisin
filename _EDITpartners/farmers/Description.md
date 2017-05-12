@@ -2,4 +2,4 @@
 title: Role in Project
 type: farmer-description
 ---
-Here's a bigger description of exactly what the farmers do It'll ideally match length to this
+The farmer's are the central focus of the project. These farmers are either pioneers or early adopters in implementing voisin techniques in the area surrounding Santa Rosa de Lima.

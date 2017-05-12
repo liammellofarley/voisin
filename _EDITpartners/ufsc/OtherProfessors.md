@@ -1,7 +1,7 @@
 ---
-name: Other Professors
+name: Students
 weight: 3
 img: profile-standin.jpg
 class: ufsc
 ---
-A whole written description about their involvement in the project. The longest one should be about this length, flexbox will deal with the others.
+A large number of Graduate and Post graduate students are integral to the project. They help with manual labor on farms and teach the basics of silvopastoral systems to new farmers.
