@@ -4,5 +4,6 @@ weight: 7
 time: (2009-2010)
 phase: Phase 7
 phasetime: 2009-2010
+direction: left
 ---
-Agroecology and Ecosystem services (Gund Institute, the University of Vermont). Paper published by Professor Joshua Farley: “How Valuing Nature Can Transform Agriculture”
+The incorporation of Ecosystem services into the agro-ecology project now begins. The benefits provided by forest zones and silvopastoral systems is examined more deeply on both a local and global scale. Assessments are made concerning both policy and payments for ecosystem services.

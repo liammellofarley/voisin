@@ -2,4 +2,4 @@
 title: Goals
 weight: 2
 ---
-Agroecology provides a unique paradigm in which goals regarding poverty alleviation, food production, economic growth and forest conservation can be addressed collectively rather than individually. 
+The goal of this project is to help develop new agroecological methods while also increasing implementation. The focus currently resides on small farmers in the Atlantic Forest of southern Brazil, but in the future we hope that agroecology can be used to help both farmers and ecosystems around the globe.
