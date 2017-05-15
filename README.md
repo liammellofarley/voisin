@@ -9,20 +9,46 @@ To add new posts for the timeline or new partners create a new file in the relev
 
 Each .md file is made of two parts: frontmatter and body.
 
-# Front Matter
+## Front Matter
 
 The front matter is the variables that define each post. It comes between the two "---" These are as follows:
 
-Title: The title of each post, the bold text at the top.
+### Common Variables
+title: The title of each post, the bold text at the top.
 
-Weight: Determines the order in which it's placed.
+weight: Determines the order in which it's placed. Smaller numbers first.
 
-Img: Used exclusively for farmers. The images should be placed in the /images/partners folder then for the variable you give the image name including the .jpg. Images should be 256x256 and ideally just a headshot, I'll have some examples up soon. Please name all the images things that make sense and don't use spaces.
+img: Used exclusively for farmers. The images should be placed in the /images/partners folder then for the variable you give the image name including the .jpg. Images should be 256x256 and ideally just a headshot, I'll have some examples up soon. Please name all the images things that make sense and don't use spaces.
 
-Class: Places partners in the category they belong, possible options are farmer, gund, ufsc.
+class: Places partners in the category they belong, possible options are farmer, gund, ufsc.
 
-Type: You shouldn't have to mess with this.
-# Body
+type: You shouldn't have to mess with this. It attaches a description to the correct category.
+
+### Timeline
+
+Due to Emmajane's request that the timeline go in reverse chronological order there are some abnormalities here.
+
+#### Variables present in all timeline elements
+
+title: Title of each timeline element
+
+weight: Determines the order of elements with bigger numbers first. Since the Phases are in reverse chronological order but the elements within a phase are in chronological order we use x.x convention, where 1.9 is the first post in phase 1, so it shows up under the other phases but above the other elements in phase 1.
+
+time: Vestigial variable, currently does nothing.
+
+#### Variables present in elements that mark a new phase
+
+phase: This both indicates that this element marks a new phase and names the phase numerically. This must follow a Phase # convention eg: Phase 1.
+
+phase-time: This changes the date next to the phase name eg: 1998-2000.
+
+direction: This will flip the side the phase and the phase-time are displayed on. This can be used to align all the phase labels on one side of the page. It's a small hack that simplifies a lot of the code but this is the resulting inconvenience.
+
+### Research
+
+Research has no special variables but I'm mentioning it here because uses only one .md file. So everything should be added in the body.
+
+## Body
 
 The body is written in a language called markdown, it comes after the final "--". For 99% of stuff that means you just type text in, but there are some places where you may want to make headers (bold and larger font), bold or italicize, or put links and images in. 
 
@@ -44,4 +70,4 @@ For pretty much anything else including adding images that are not hosted on the
 
 # Updating the site
 
-You don't have to do anything but save/commit changes when you're done editing and then the site should automatically update within a couple of minutes. If anything goes wrong github has backups of every single commit so you can roll back. So if you fuck up ask me for help and I'll fix it.
+You don't have to do anything but save/commit changes when you're done editing and then the site should automatically update within a couple of minutes. If anything goes wrong github has backups of every single commit so you can roll back. So if you mess up contact me and I can roll it back.
