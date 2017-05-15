@@ -42,7 +42,7 @@ phase: This both indicates that this element marks a new phase and names the pha
 
 phase-time: This changes the date next to the phase name eg: 1998-2000.
 
-direction: This will flip the side the phase and the phase-time are displayed on. This can be used to align all the phase labels on one side of the page. It's a small hack that simplifies a lot of the code but this is the resulting inconvenience.
+direction: This will flip the side the phase and the phase-time are displayed on. If the phase text appears on the right add left to this variable eg: direction: left, if the phase is on the right and this variable is set to left simply clear it. This can be used to align all the phase labels on one side of the page. It's a small hack that simplifies a lot of the code but this is the resulting inconvenience.
 
 ### Research
 
