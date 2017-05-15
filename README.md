@@ -46,7 +46,7 @@ direction: This will flip the side the phase and the phase-time are displayed on
 
 ### Research
 
-Research has no special variables but I'm mentioning it here because uses only one .md file. So everything should be added in the body.
+Research has no special variables but I'm mentioning it here because uses only one .md file per category. Simply put a line between different posts within categories here.
 
 ## Body
 
