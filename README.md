@@ -65,6 +65,7 @@ eg:
 How it'll look
 ![Standin for profile pictures](https://liammellofarley.github.io/voisin//images/profile-standin.jpg)
 
+For videos (assuming youtube), simply click embed under the video on youtube and copy the html. Markdown supports inline html so it will work perfectly.
 
 For pretty much anything else including adding images that are not hosted on the site check out this link that explains how to use markdown https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
