@@ -4,4 +4,4 @@ weight: 2
 img: profile-standin.jpg
 class: organization
 ---
-A whole written description about their involvement in the project. The longest one should be about this length, flexbox will deal with the others.
+We are partnered with SDS to develop a payment for ecosystem services program targeting agro-ecology.
